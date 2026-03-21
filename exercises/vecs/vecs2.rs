@@ -27,6 +27,11 @@ fn vec_map(v: &Vec<i32>) -> Vec<i32> {
     }).collect()
 }
 
+// mut v: Vec<i32>
+// v: Vec<i32>
+// v: &Vec<i32>
+// mut v: &Vec<i32>
+
 #[cfg(test)]
 mod tests {
     use super::*;

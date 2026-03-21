@@ -8,4 +8,5 @@
 
 fn main() {
     println!("Hello world!");
+    println!("ByeBye world!");
 }
